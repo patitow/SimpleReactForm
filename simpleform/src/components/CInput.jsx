@@ -4,7 +4,7 @@ function CInput(){
 
     return(
         <>
-        <input></input>
+        <input className="rounded-lg"></input>
         </>
     )
 }
