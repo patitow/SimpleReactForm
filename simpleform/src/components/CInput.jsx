@@ -8,10 +8,10 @@ function CInput({label,type}) {
     
     return (
         <>
-            <label className="text-lg font-semibold leading-tight text-gray-800 text-center mt-3" for={label}>
+            <label className="text-2xl font-semibold leading-tight text-gray-800 text-center mt-3" htmlFor={label}>
                 {label.charAt(0).toUpperCase() + label.slice(1)}
             </label>
-            <input className="border rounded-full w-full py-3 px-4 text-gray-700 leading-tight focus:outline-offset-0 focus:shadow-outline focus:outline-blue-900 text-center" 
+            <input className="mt-2 border rounded-full w-full py-3 px-4 text-gray-700 leading-tight focus:outline-offset-0 focus:shadow-outline focus:outline-blue-900 text-center" 
             id={label} 
             type={typesOfInput.indexOf(type) === -1 ? "text" : type }
             placeholder=". . ."></input>
